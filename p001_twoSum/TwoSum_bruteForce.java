@@ -1,4 +1,4 @@
-package twoSum.brute_force;
+package p001_twoSum;
 
 class Solution {
 	public int[] twoSum(int[] nums, int target) {
@@ -16,7 +16,7 @@ class Solution {
 	}
 }
 
-public class TwoSum {
+public class TwoSum_bruteForce {
 
 	public static void main(String[] args) {
 		Solution s1 = new Solution();
