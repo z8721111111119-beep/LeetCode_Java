@@ -34,3 +34,10 @@ This repository contains my LeetCode practice solutions written in Java.
 - 解答包含暴力破解和優化方法
 
 - 每個問題都包含一個 README 文件，其中包含解釋和複雜度分析
+
+## 格式 git commit --m
+Git Commit Message ""
+[LeetCode] 001.TwoSum-Brute Force
+[LeetCode] 001.TwoSum-HashMap
+[LeetCode] 121.BestTimeToBuyAndSellStock-Brute Force
+[LeetCode] 121.BestTimeToBuyAndSellStock-Optimized
