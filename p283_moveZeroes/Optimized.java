@@ -1,7 +1,7 @@
 package p283_moveZeroes;
 
 public class Optimized {
-
+	//swap
 	public int[] moveZeroes(int[] array) {
 		int index=0;//放非0的位置
 		

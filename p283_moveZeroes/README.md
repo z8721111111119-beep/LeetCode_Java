@@ -21,9 +21,11 @@ Output: [0]
 ---
 
 ## Solution 1: Brute Force
-
-時間複雜度：O(n^2)
+先將非0數字往前
+再將後面補上0
+時間複雜度：O(n)
 ## Solution 2: Optimized
+非0數字交換位置
 
 時間複雜度：O(n)
 
