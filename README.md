@@ -41,3 +41,5 @@ Git Commit Message ""
 [LeetCode] 001.TwoSum-HashMap
 [LeetCode] 121.BestTimeToBuyAndSellStock-Brute Force
 [LeetCode] 121.BestTimeToBuyAndSellStock-Optimized
+
+## 練習題目順序
