@@ -42,4 +42,13 @@ Git Commit Message ""
 [LeetCode] 121.BestTimeToBuyAndSellStock-Brute Force
 [LeetCode] 121.BestTimeToBuyAndSellStock-Optimized
 
-## 練習題目順序
+## README.md格式
+# xxx. 題目名稱
+
+## Problem
+
+
+## Solution 1: Brute Force
+
+
+## Solution 2: Optimized
