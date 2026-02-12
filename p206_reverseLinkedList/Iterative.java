@@ -8,7 +8,7 @@ class ListNode {
 	ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 
-public class Solution {	
+public class Iterative {	
 	
 	public ListNode reverseList(ListNode head) {
 		ListNode cur=head,nextTemp,prev=null;
@@ -33,7 +33,7 @@ public class Solution {
 		//打印 確認節點
 		ListNode head = dummy.next; //頭節點 為假頭的下個節點
 		
-		Solution s1=new Solution();
+		Iterative s1=new Iterative();
 		
 		current=head;
 		current=s1.reverseList(head);
