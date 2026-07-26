@@ -26,30 +26,28 @@ map.containsKey(key)
  */
 
 public class TwoSum_HashMap {
-	public static void main(String[] args) {
-		Solution_HashMap s1 = new Solution_HashMap();
-		int[] nums = new int[] { 2, 7, 11, 15 };
-		int target = 9;
-		int[] res = s1.twoSum(nums, target);
-		for (int i : res) {
-			System.out.print(i + " ");
-		}
-	}
+    public static void main(String[] args) {
+        SolutionHashMap s1 = new SolutionHashMap();
+        int[] nums = new int[] { 7, 11, 7, 15 };
+        int target = 14;
+        int[] res = s1.twoSum(nums, target);
+        for (int i : res) {
+            System.out.print(i + " ");
+        }
+    }
 }
 
-class Solution_HashMap {
+class SolutionHashMap {
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer,Integer> map = new HashMap<>();
-        for(int i=0;i<nums.length;i++){
-            //補數
-            int needed = target-nums[i];
-            // key放值 value=索引
-            map.put(nums[i],i);
-            //判斷補數 key是否存在
-            if (map.containsKey(needed)) {
-                //回傳數組(inedx,index)
-                return new int[]{map.get(needed),i};
+
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            int needed = target - nums[i]; // 補數
+            if (map.containsKey(needed)) { // 如果map中有補數,則回傳答案
+                return new int[] { map.get(needed), i };
             }
+            map.put(nums[i], i); // key=值, value=index
         }
         return null;
     }
