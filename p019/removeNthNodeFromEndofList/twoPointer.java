@@ -1,7 +1,5 @@
 package p019.removeNthNodeFromEndofList;
 
-import java.util.ArrayList;
-
 public class twoPointer {
 	 public ListNode removeNthFromEnd(ListNode head, int n) {
 	        ListNode dummy=new ListNode();
